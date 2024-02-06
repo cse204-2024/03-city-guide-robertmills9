@@ -1,10 +1,9 @@
-/* General resets */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Header styles */
+/* header styles */
 header#main-header {
     position: sticky;
     top: 0;
@@ -29,8 +28,7 @@ section, footer {
     padding: 20px;
     background-color: #f4f4f4;
 }
-
-/* Table styles */
+/* table styles */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -40,7 +38,6 @@ table th, table td {
     padding: 10px;
     border: 1px solid #ddd;
 }
-
 table th {
     background-color: #333;
     color: white;
@@ -58,7 +55,7 @@ ul {
 
 ul li::before {
     content: "• ";
-    color: red; /* Change marker style */
+    color: red; 
 }
 
 /* Link styles */
@@ -74,15 +71,13 @@ a:hover {
     color: orange;
 }
 
-/* Responsive design for sections */
 @media (max-width: 600px) {
     .place, .activity, .contact {
         width: 100%;
         box-sizing: border-box;
     }
 }
-
-/* Font family change for headings */
+/* heading font */
 h1, h2, h3 {
     font-family: Arial, sans-serif;
 }
